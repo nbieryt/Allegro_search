@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="/static/script2.js"></script>
+    <head>
+        <title>Allegro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href= "/static/style3.css">
+    </head>
+<body>
+	<form name = "form_1" action = "search" method = "POST" onsubmit = "return validate()">
+        <table style="width: 100%;">
+        <tr>
+			 <th><label class="label_style">PRODUCT 1</label><br></br>
+
+                        <label for= "product1">product name</label>
+                        <input type="text" id = "product1" name="product1" value="">
+
+                        <label for= "min_price1">minimum price [PLN]</label>
+                        <input type="number" id="min_price1" name= "min_price1" value="" step="0.01" min="0">
+
+                        <label for= "max_price1">maximum price [PLN]</label>
+                        <input type="number" id="max_price1" name="max_price1" value="" step="0.01" min="0">
+
+                        <label for= "reputation1">reputation [%]</label>
+                        <input type="number" id="reputation1" name="reputation1" value="" min="0" max="100" step="0.01">
+
+            </th>
+            <th><label class="label_style">PRODUCT 2</label><br></br>
+                        <label for= "product2">product name</label>
+                        <input type="text" id = "product2" name="product2" value="">
+
+                        <label for= "min_price2">minimum price [PLN]</label>
+                        <input type="number" id="min_price2" name= "min_price2" value="" step="0.01" min="0">
+
+                        <label for= "max_price2">maximum price [PLN]</label>
+                        <input type="number" id="max_price2" name="max_price2" value="" step="0.01" min="0">
+
+                        <label for= "reputation2">reputation [%]</label>
+                        <input type="number" id="reputation2" name="reputation2" value="" min="0" max="100" step="0.01">
+            </th>
+            <th><label class="label_style">PRODUCT 3</label><br></br>
+
+                        <label for= "product3">product name</label>
+                        <input type="text" id = "product3" name="product3" value="">
+
+                        <label for= "min_price3">minimum price [PLN]</label>
+                        <input type="number" id="min_price3" name= "min_price3" value="" step="0.01" min="0">
+
+                        <label for= "max_price3">maximum price [PLN]</label>
+                        <input type="number" id="max_price3" name="max_price3" value="" step="0.01" min="0">
+
+                        <label for= "reputation3">reputation [%]</label>
+                        <input type="number" id="reputation3" name="reputation3" value="" min="0" max="100" step="0.01">
+
+            </th>
+            <th><label class="label_style">PRODUCT 4</label><br></br>
+                        <label for= "product4">product name</label>
+                        <input type="text" id = "product4" name="product4" value="">
+
+                        <label for= "min_price4">minimum price [PLN]</label>
+                        <input type="number" id="min_price4" name= "min_price4" value="" step="0.01" min="0">
+
+                        <label for= "max_price4">maximum price [PLN]</label>
+                        <input type="number" id="max_price4" name="max_price4" value="" step="0.01" min="0">
+
+                        <label for= "reputation4">reputation [%]</label>
+                        <input type="number" id="reputation4" name="reputation4" value="" min="0" max="100" step="0.01">
+            </th>
+            <th><label class="label_style">PRODUCT 5</label><br></br>
+                        <label for= "product5">product name</label>
+                        <input type="text" id = "product5" name="product5" value="">
+            
+                        <label for= "min_price5">minimum price [PLN]</label>
+                        <input type="number" id="min_price5" name= "min_price5" value="" step="0.01" min="0">
+            
+                        <label for= "max_price5">maximum price [PLN]</label>
+                        <input type="number" id="max_price5" name="max_price5" value="" step="0.01" min="0">
+            
+                        <label for= "reputation5">reputation [%]</label>
+                        <input type="number" id="reputation5" name="reputation5" value="" min="0" max="100" step="0.01">
+            </th>
+        </tr>
+		<td></td>
+		<td></td>
+		<td>
+        <input type="submit" value="SEARCH" id="search_btn" name = "search_btn" style= "width: 100%">
+		</td>		
+		</table>
+	</form>
+    </body>
+</html>
+
+

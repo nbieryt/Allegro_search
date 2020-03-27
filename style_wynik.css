@@ -1,0 +1,19 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+th {
+    border: 1px solid #8080ff;
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    width: 33%;
+}
+td{
+    //height: 400px;
+    text-align: left;
+    padding: 8px;
+    font-size: 10px;
+    border: 1px solid #8080ff;
+}
+
